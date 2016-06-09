@@ -6,7 +6,7 @@ ADD ./container_start.sh /opt/spring-xd/start
 RUN chown springxd:springxd /opt/spring-xd/start
 RUN chmod u+x /opt/spring-xd/start
 
-RUN yum install -y net-tools telnet curl wget nano
+#RUN yum install -y net-tools telnet curl wget nano
 
 USER springxd
 
